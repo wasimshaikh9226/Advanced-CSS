@@ -1,0 +1,20 @@
+Purpose of var() Function
+
+Reusability: CSS variables allow us to store values that we can reuse across our stylesheet. The var()
+function lets us reference these values wherever needed, reducing redundancy and making our code
+cleaner©
+}
+Consistency: By using variables, we can ensure consistent values for colors, spacing, fonts, and more
+throughout our entire design. Changing a variable's value will automatically update all instances where the
+variable is used©
+x
+Global Changes: If we need to make a design change, we can update the variable's value once, and the
+change will be applied to all instances using that variable.
+Code Solution
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /
+<title>CSS Variables</title>
+</head>
